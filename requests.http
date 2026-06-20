@@ -1,0 +1,16 @@
+### Criar vaga
+
+POST http://localhost:8080/api/v1/jobs
+Content-Type: application/json
+
+{
+  "title": "Desenvolvedor Java",
+  "description": "Desenvolvimento de APIs REST",
+  "requirements": "Java, Spring Boot, PostgreSQL",
+  "location": "Remoto",
+  "salary": 8500
+}
+
+###
+
+GET http://localhost:8080/api/v1/jobs
